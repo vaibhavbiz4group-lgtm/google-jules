@@ -1,10 +1,9 @@
-# AI Voice Chatbot
+# AI Voice Chatbot Backend
 
-A full-stack AI voice chatbot project with a React frontend and a FastAPI backend.
+An AI voice chatbot project with a FastAPI backend.
 
 ## Project Structure
 
-- `/frontend`: React (Vite) frontend application.
 - `/backend`: FastAPI backend server.
 - `/docs`: Project documentation.
 
@@ -34,26 +33,7 @@ A full-stack AI voice chatbot project with a React frontend and a FastAPI backen
    ```
    The backend will be running at `http://localhost:8000`.
 
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the React app:
-   ```bash
-   npm run dev
-   ```
-   The frontend will be running at `http://localhost:5173`.
-
 ## Technologies
 
-- **Frontend**: React, Vite
 - **Backend**: Python, FastAPI
-- **Package Manager**: npm (frontend), pip (backend)
+- **Package Manager**: pip (backend)
