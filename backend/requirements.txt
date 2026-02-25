@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+python-multipart  # Common requirement for file uploads (like voice)
+pydantic
+python-dotenv
