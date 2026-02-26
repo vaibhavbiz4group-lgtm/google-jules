@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-python-multipart  # Common requirement for file uploads (like voice)
+python-multipart
 pydantic
 python-dotenv
+supabase

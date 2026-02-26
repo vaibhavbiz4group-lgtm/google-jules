@@ -1,6 +1,6 @@
 # AI Voice Chatbot Backend
 
-An AI voice chatbot project with a FastAPI backend.
+An AI voice chatbot project with a FastAPI backend and Supabase integration.
 
 ## Project Structure
 
@@ -27,7 +27,14 @@ An AI voice chatbot project with a FastAPI backend.
    pip install -r requirements.txt
    ```
 
-4. Run the FastAPI server:
+4. Configure environment variables:
+   - Copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Open `.env` and add your Supabase URL and API Key.
+
+5. Run the FastAPI server:
    ```bash
    uvicorn main:app --reload
    ```
@@ -36,4 +43,5 @@ An AI voice chatbot project with a FastAPI backend.
 ## Technologies
 
 - **Backend**: Python, FastAPI
+- **Database**: Supabase
 - **Package Manager**: pip (backend)
